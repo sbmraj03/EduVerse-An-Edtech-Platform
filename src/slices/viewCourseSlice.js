@@ -12,6 +12,7 @@ const viewCourseSlice = createSlice({
   initialState,
   reducers: {
     setCourseSectionData: (state, action) => {
+      // console.log("Course Section Data in slice is", action.payload)
       state.courseSectionData = action.payload
     },
     setEntireCourseData: (state, action) => {
@@ -29,7 +30,12 @@ const viewCourseSlice = createSlice({
   },
 })
 
-
-export const {setCourseSectionData, setEntireCourseData, setTotalNoOfLectures, setCompletedLectures,  updateCompletedLectures,} = viewCourseSlice.actions
+export const {
+  setCourseSectionData,
+  setEntireCourseData,
+  setTotalNoOfLectures,
+  setCompletedLectures,
+  updateCompletedLectures,
+} = viewCourseSlice.actions
 
 export default viewCourseSlice.reducer

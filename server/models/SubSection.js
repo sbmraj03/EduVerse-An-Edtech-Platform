@@ -1,7 +1,6 @@
-const mongoose = require("mongoose");
+const mongoose =  require('mongoose');
 
 const subSectionSchema = new mongoose.Schema({
-    
     title:{
         type:String,
     },
@@ -16,6 +15,6 @@ const subSectionSchema = new mongoose.Schema({
     },
 
 
-});
+})
 
 module.exports = mongoose.model("SubSection", subSectionSchema);
