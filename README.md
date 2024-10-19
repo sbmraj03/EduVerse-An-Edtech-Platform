@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# **EduVerse: An EdTech Platform**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**EduVerse** is a comprehensive EdTech platform that enables users to create, access, and evaluate educational materials. It provides a seamless experience for students and instructors to connect, share knowledge, and participate in interactive learning.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## **Table of Contents**
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup and Installation](#setup-and-installation)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [API Endpoints](#api-endpoints)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## **Features**
+EduVerse comes with a range of features to facilitate interactive learning and seamless course management:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Interactive Learning**  
+   - Connects students and instructors globally, providing an environment for real-time interaction.
+   
+2. **User Authentication**  
+   - Secure user sign-up, login, OTP verification, and password recovery using industry-standard authentication practices.
+   
+3. **Course Management**  
+   - Instructors can create, manage, and publish courses, while students can view, rate, and purchase courses.
+   
+4. **Payment Integration**  
+   - Integrated with **Razorpay** for secure payments, allowing users to buy courses directly through the platform.
+   
+5. **Media Management**  
+   - Supports multimedia content using **Cloudinary** for efficient media storage and delivery. Responsive design ensures a consistent experience across devices.
+   
+6. **Responsive Design and Metrics**  
+   - A responsive interface designed to be mobile-friendly, with detailed course metrics for tracking student progress and course performance.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## **Technologies Used**
 
-### `npm run build`
+EduVerse is built using modern web technologies and frameworks to ensure performance, scalability, and ease of use.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### **Front-End**
+- **ReactJS**: For building interactive and dynamic user interfaces.
+- **CSS**: For styling and layout.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **Redux**: For state management across the application.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### **Back-End**
+- **NodeJS**: For server-side JavaScript execution.
+- **ExpressJS**: A web application framework for handling routes, requests, and middleware.
+- **MongoDB**: NoSQL database for data storage and management.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### **Other Integrations**
+- **Razorpay**: For secure payment processing.
+- **Cloudinary**: For image and video storage and management.
 
-### `npm run eject`
+### **Prerequisites**
+- **Node.js** (v14+)
+- **MongoDB** (v4.4+)
+- **NPM** (Node Package Manager)
+- **Razorpay Developer Account** (for payment integration)
+- **Cloudinary Account** (for media storage)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## **Usage**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### **For Instructors**:
+- **Create Courses**: Instructors can create and manage multiple courses, upload course materials (videos, PDFs), and track student progress.
+- **Manage Enrollments**: View enrolled students and communicate with them through the platform.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### **For Students**:
+- **Browse Courses**: Students can browse through courses by category, rating, or instructor.
+- **Purchase Courses**: Secure payments for courses through Razorpay integration.
+- **Track Progress**: Students can monitor their learning progress through detailed course metrics.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
